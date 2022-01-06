@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(5, 5, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+table{
+    background-color: white;
+    margin-top: 130px;
+    margin-left: 80px;
+    width: 1200px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+caption{
+    font-size: 40px;
+    color: white;
+    text-align: start;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.caption__bottom{
+    caption-side: bottom;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+thead th{
+    text-align: start;
+}
+
+.article{
+    text-align: center;
+}
+
+.delete__article{
+    border: none;
+    background-color: white;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.qtys{
+    display: flex;
+    align-items: center;
+}
+
+.qty{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: solid gray 1px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
+
+.btnMoins{
+    background-color: silver;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnPlus{
+    background-color: silver;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnMoins:hover{
+    background-color: rgb(163, 163, 230);
+}
+
+.btnPlus:hover{
+    background-color: rgb(163, 163, 230);
+}
+
+.add__article{
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.subTotal{
+    color: cornflowerblue;
+}
+
+th {
+    text-align: start;
+}

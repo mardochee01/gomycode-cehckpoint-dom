@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chechpoint DOM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table id="table">
+        <caption class="caption__top">Panier</caption>
+        <caption class="caption__bottom">
+            <p class="total">Total : 25000 fr</p> 
+        </caption> 
+        <thead>
+            <tr>
+                <th>Nom de l'article</th>
+                <th>Quantité</th>
+                <th>Prix Unitaire</th>
+                <th>Sous Total</th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+            <tr class="tbody__line">
+                <td class="article">
+                    <!-- <div>
+                        <img src="res/image_1024.jpg" alt="sac de riz">
+                    </div> -->
+                    <div>
+                        <p class="name__article">Sac de riz</p>
+                        <button class="delete__article">Suprimer</button>
+                    </div>
+                </td>
+                <td>
+                    <div class="qtys">
+                        <button class="btnMoins">-</button>
+                        <input class="qty" type="text" value="1">
+                        <!-- <p class="qte">1</p> -->
+                        <button class="btnPlus">+</button>
+                    </div>
+                </td>
+                <td>
+                    <p class="priceU">25000</p>
+                </td>
+                <td>
+                    <p class="subTotal">25000</p>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>
+                    <input class="in__article" type="text" placeholder="Entrer l'Article">
+                </th>
+                <th>
+                    <input class="in__price" type="number" placeholder="Entrer le Prix">
+                </th>
+                <th></th>
+                <th>
+                    <button class="add__article">Ajouter un article</button>
+                </th>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="js/main.js"></script>
+</body>
+</html>
